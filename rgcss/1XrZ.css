@@ -1,0 +1,27 @@
+.CNTHdr {
+    color: var(--color-white);
+    min-width: var(--width-min);
+    position: relative;
+}
+.CNTHdr ._Hdr {
+    position: fixed;
+    will-change: transform;
+    width: 100%;
+    z-index: 10;
+    background-color: #2874f0;
+}
+.CNTHdr ._Hdr ._1Hdr {
+        height: 30px
+		}
+
+
+.CNTHdr ._Hdr ._2Hdr {
+        height: 55px
+		}
+
+.CNTHdr ._3Hdr {
+    position: absolute;
+    width: 100%;
+    top: 85px;
+    z-index: 6;
+}

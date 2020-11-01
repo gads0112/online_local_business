@@ -1,0 +1,137 @@
+
+
+body {
+	color: #5a5a5a;
+	font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Montserrat', sans-serif;
+}
+.parallax-section {
+	background-attachment: fixed!important;
+}
+
+.btn-transparent-white {
+	border: 2px solid black ;
+	color: burlywood;
+}
+.btn-transparent-white:hover, .btn-transparent-white:focus {
+	background: #fff;
+	color: #0297FF;
+}
+.relative-box {
+	position: relative
+}
+section {
+	float: left;
+	width: 100%;
+	padding: 80px 0;
+}
+
+
+
+.header {
+  overflow: hidden;
+  background-color: black;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: aliceblue;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px; 
+  line-height: 20px;
+  border-radius: 4px;
+}
+.sps--blw {
+	background-color: #fff;
+	color: #fff;
+}
+
+ a.logo {
+  
+	color: #fff;
+	font-size: 26px;
+	font-weight: 800;
+	padding: 5px 0 0 8px;
+	text-transform: uppercase;
+}
+.sps--blw.top-bar a.logo {
+	color: #000;
+}
+a.logo span {
+	color: #0297ff;
+}
+
+
+.header a:hover {
+  background-color: darkgray;
+  color: white;}
+
+ footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+
+
+
+
+
+.about-sec {
+	background: url('https://www1.avalara.com/content/dam/avalara/uploads/sites/4/2017/05/GST-India.jpg') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	position: relative;
+}
+.about-sec:before {
+	content: ' ';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(22,122,192,0.8);
+	top: 0;
+	left: 0
+}
+.about-sec h2 {
+	font-size: 55px;
+	font-weight: 800;
+	margin-top: 25%;
+}
+.about-sec h2 small {
+	display: block;
+	font-size: 34px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+.about-sec p {
+	font-size: 16px;
+}
+ #sctop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#sctop:hover {
+  background-color: #555;
+}
+
+
+
+
