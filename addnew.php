@@ -65,7 +65,7 @@ input[type=submit]:hover {
 			  <?php
 			       $shp = $_SESSION['uid'];
                    $sql1="SELECT * FROM shopkeeper where shp_id=$shp";
-                   	 $sql2="SELECT * FROM item_detail";			   
+                   	 $sql2="SELECT * FROM product";			   
                     $run1= mysqli_query($con,$sql1);
 					$run2=mysqli_query($con,$sql2);
 					while ($row = mysqli_fetch_assoc($run1)) {

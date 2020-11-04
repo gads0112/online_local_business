@@ -6,7 +6,7 @@ if(!isset($_SESSION['uid']))
     header("Location:login.php");
 }
 if(isset($_GET['chk_item_id']))
-{$date=date('Y-m-d h:i:s');
+{$date=date('Y-m-d h:i:sa');
 $rand_num=mt_rand();
 if(isset($_SESSION['ref'])){}else{$_SESSION['ref']= $date.' '.$rand_num;}
 $chk_sql="INSERT INTO checkout(chk_item,chk_shp_id,chk_ref,chk_timing,chk_qty) VALUES ('$_GET[chk_item_id]',$_GET[shp_id],'$_SESSION[ref]','$date',1)";
@@ -181,7 +181,7 @@ if(isset($_REQUEST['order_submit'])) {
 	 $total = $_SESSION['grandtotal'];
 	 $sql="INSERT INTO orders(cus_id,order_ref,total_amount) VALUES('$uid','$ref','$total')";
 	 if(mysqli_query($con,$sql)){
-	 	$date= date('Y-m-d h:i:s');
+	 	$date= date('Y-m-d h:i:sa');
 	 $rand_num=mt_rand();
 	 	 ?><script>window.location="customer.php";</script><?php
 	 	 $_SESSION['ref']=$date.' '.$rand_num;
